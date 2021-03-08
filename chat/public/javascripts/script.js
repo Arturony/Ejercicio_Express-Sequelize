@@ -19,8 +19,7 @@ function loadMsg()
       {
         for(let i = 0; i < data.length; i++)
         {
-            datas = JSON.parse(data[i]);
-            renderMessages(datas);
+            renderMessages(data[i]);
         }
       });
   });
